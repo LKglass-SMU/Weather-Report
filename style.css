@@ -1,0 +1,33 @@
+.search-box {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.fa-search {
+    background-color: steelblue;
+    font-size: 15px;
+    padding: 11px;
+    padding-top: 13px;
+    padding-bottom: 8px;
+    border-color: rgb(26, 28, 29);
+    border-width: thick;
+}
+
+
+.container {
+    float: left;
+}
+.card {
+   margin: 1%;
+   font-size: 20px;
+}
+#main { 
+    margin: 0 auto 20px auto;
+    width: 100%;
+    padding: 30px;
+    color: #ffffff;
+    background: #003459;
+    border-bottom: 3px solid #00a8e8;
+    text-align: center;
+  }
+
