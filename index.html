@@ -14,30 +14,56 @@
 
 <body>
     <div id="main">
-        <h1>Weather Dashboard</h1>
-      </div>
-
-    <div class="search-box">
-        <h2><strong>Search for a City</strong></h2>
-        <input type="text" id="Search">
-        <i class="fas fa-search"></i>
+       <h1>Weather Dashboard</h1>
     </div>
-
-    <div class="card" style="width: 25rem;">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Los Angeles</li>
-            <li class="list-group-item">Orange County</li>
-            <li class="list-group-item">Wichita</li>
-            <li class="list-group-item">McKinney</li>
-            <li class="list-group-item">Litchfield</li>
-            <li class="list-group-item">Miami</li>
-            <li class="list-group-item">Litchfield Park</li>
-            <li class="list-group-item">Miami</li>
-        </ul>
+  <header class= "header"><h2>Weather Output</h2></header>
+    <div id= "container">
+        <div class="search-box">
+            <h2><strong>Search for a City</strong></h2>
+            <input type="text" id="city-name">
+            <button type="submit" class="btn btn-primary" id="button"><i class="fas fa-search"></i></button>
         </div>
-    </div>
-    <script type="text/javascript">
-    </script>
-</body>
+        <div class="row" id="dashboard">
+        <div class="col col-lg-3" id="search-bar">
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Los Angeles</li>
+                    <li class="list-group-item">Orange County</li>
+                    <li class="list-group-item">Wichita</li>
+                    <li class="list-group-item">McKinney</li>
+                    <li class="list-group-item">Litchfield</li>
+                    <li class="list-group-item">Miami</li>
+                    <li class="list-group-item">Litchfield Park</li>
+                    <li class="list-group-item">Miami</li>
+                </ul>
+            </div>  
+        </div>
+          <div class="col-lg-9" id="city-input">
+          <div class="forecast">
+            <hr>
+              <h3>5-Day Forecast:</h3>
+          </div>
+              <div class="row" id="weather-output">
+                <div class="column" style="background-color:#3656e4;">
+                </div>
+                <div class="column" style="background-color:#3656e4;">
+                 </div>
+                <div class="column" style="background-color:#3656e4;">  
+                </div>
+                <div class="column" style="background-color:#3656e4;">
+                </div>
+                <div class="column" style="background-color:#3656e4;">
+                </div>
+              </div> 
+              </div>
+              
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
 
 </html>

@@ -1,22 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  .header {
+    float: right;
+    margin-right: 860px;
+}
+  .column {
+    float: left;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    height: 250px; 
+  }
+  
+  .row :after{
+    content: "";
+    display: table;
+    clear: both;
+  }
 .search-box {
     margin-left: 20px;
     font-size: 20px;
 }
-
+.btn {
+    background-color: ivory;
+}
 .fa-search {
-    background-color: steelblue;
     font-size: 15px;
-    padding: 11px;
-    padding-top: 13px;
-    padding-bottom: 8px;
-    border-color: rgb(26, 28, 29);
-    border-width: thick;
+    padding: 6px;
+    padding-top: 11px;
+    padding-bottom: 6px;
 }
 
 
-.container {
-    float: left;
-}
 .card {
    margin: 1%;
    font-size: 20px;
@@ -30,4 +46,11 @@
     border-bottom: 3px solid #00a8e8;
     text-align: center;
   }
+#start-text {
+    width: 100%;
+    height: 50%;
+}
 
+.forecast {
+    padding-top: 200px;
+}
